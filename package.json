@@ -1,0 +1,18 @@
+{
+  "name": "getting-started",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts | bunx pino-pretty",
+    "test": "bun test | bunx pino-pretty"
+  },
+  "dependencies": {
+    "@hono/swagger-ui": "^0.4.1",
+    "@hono/zod-openapi": "^0.16.0",
+    "@hono/zod-validator": "^0.2.2",
+    "hono": "^4.5.11",
+    "hono-pino-logger": "^1.0.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.8"
+  }
+}
